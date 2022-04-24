@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="paraSuite">
+	<test name="parameter Test">
+		<parameter name="s1" value="Vasant" />
+		<parameter name="s2" value="Chavan" />
+		<classes>
+			<class name="testngFramework.ParameterizeTestinTestNG" />
+		</classes>
+	</test>
+
+</suite>

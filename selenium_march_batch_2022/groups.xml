@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Groups">
+	<test name="groups test">
+		<groups>
+			<run>
+				<include name="smoke" />
+				<include name="sanity" />
+				<exclude name="regression" />
+				<!-- It is optional to use exclude tag to exclude any groups in TestNG -->
+			</run>
+		</groups>
+		<classes>
+
+			<class name="testngFramework.GroupsTestInTestNG" />
+		</classes>
+	</test>
+</suite>
