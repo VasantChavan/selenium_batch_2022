@@ -6,6 +6,8 @@ public class HandleFrame {
 		
 		
 		System.out.println("Hi let's handle frame in selenium");
+		
+		System.out.println("iframe handles already");
 	}
 
 }
